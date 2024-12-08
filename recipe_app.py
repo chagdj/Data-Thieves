@@ -4,9 +4,21 @@ from datetime import datetime, timedelta, date
 import requests
 import os
 import altair as alt
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")  
+
+
+if API_KEY:
+    print("API Key successfully loaded.")
+else:
+    print("API Key is missing!")
+
 
 API_URL = "https://api.spoonacular.com/recipes/findByIngredients"
-API_KEY = "3402019df6944e5380bd1eb7cd3a78e5"  # Replace with your actual Spoonacular API key
 FILE_PATH = "ingredients.csv"
 
 # To ensure the ingredients CSV exists or create one if missing
