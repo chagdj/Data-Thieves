@@ -1,4 +1,4 @@
-![Nom alternatif](py/MYCOACHAPP/Banners.jpg)
+![Nom alternatif](./MYCOACHAPP/Banners.jpg)
 
 # My Coach App ⚽
 
