@@ -8,8 +8,12 @@
    ```bash
    git clone https://github.com/chagdj/Data-Thieves.git
    cd Data-Thieves
-2. pip install -r requirements.txt
-3. python main.py
+   
+2. Install dependencies:
+pip install -r requirements.txt
+
+3. Run the application:
+python main.py
 
 ## Table of Contents
 
